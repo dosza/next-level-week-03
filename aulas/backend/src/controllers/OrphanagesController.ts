@@ -1,24 +1,47 @@
 import {Request,Response} from 'express';
 import {getRepository} from 'typeorm';
 import Orphanage from '../models/Orphanage'
+import OrphanageView from '../views/orphanage_view'
 
 
 export default {
-    async show (request:Request, response:Response){
-        const {id } = request.params;
-        const orphanagesRepository = getRepository(Orphanage);
-        const orphanage = await orphanagesRepository.findOneOrFail(id)
-        return response.json(orphanage);
 
-    },
-
+    /**
+     * @description Função para retornar a lista de orfanatos do DB
+     * @param {Request} request 
+     * @param {Response} response 
+     */
     async index(request:Request, response:Response){
         const orphanagesRepository = getRepository(Orphanage);
-        const orphanages = await orphanagesRepository.find();
+        const orphanages = await orphanagesRepository.find({
+            relations: ['images']
+        });
         
-        return response.json(orphanages);
+        return response.json(OrphanageView.renderMany(orphanages));
     },
 
+     /**
+      * @description metodo para mostrar informações sobre um orfanato
+      * @param {Request} request 
+      * @param {Response} response 
+      */
+
+     async show (request:Request, response:Response){
+        const {id } = request.params;
+        const orphanagesRepository = getRepository(Orphanage);
+        const orphanage = await orphanagesRepository.findOneOrFail(id,{ 
+            relations: ['images'] 
+        });
+        return response.json(OrphanageView.render(orphanage));
+
+    },
+
+
+    /**
+     * @description método para criar um orfanato
+     * @param {Request} request 
+     * @param {Response} response 
+     */ 
     async create(request:Request ,response:Response){
 
         const {

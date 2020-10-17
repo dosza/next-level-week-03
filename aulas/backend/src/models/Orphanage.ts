@@ -1,5 +1,5 @@
 import {Entity, Column, PrimaryGeneratedColumn,OneToMany, JoinColumn} from 'typeorm';
-import Image from './image';
+import Image from './Image';
 
 @Entity('orphanages')
 class Orphanage {
@@ -27,6 +27,7 @@ class Orphanage {
     @Column()
     open_on_weekends: boolean;
     
+    //configura relacionamento de um  para muitos, pois um orfanato pode ter várias imagens
     @OneToMany(()=>Image,image => image.orphanage, {
         cascade: ['insert','update']
     } )
