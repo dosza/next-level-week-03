@@ -19,7 +19,8 @@ const mapIcon = Lealet.icon({
 function OrphanagesMap(){
     return (
         <div id="page-map">
-            <aside>
+             
+             <aside>
                 <header>
                     <img src={mapMarkerImg} alt="Happy" />
 
@@ -32,8 +33,7 @@ function OrphanagesMap(){
                     <strong>Guarulhos</strong>
                     <span>São Paulo</span>
                 </footer>
-            </aside>
-            
+            </aside> 
             <Map
                 center={[-23.4667294,-46.5475621]}
                 zoom={14} 
