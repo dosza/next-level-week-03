@@ -53,7 +53,7 @@ export default function Orphanage() {
               return (
                 <button 
                 key={image.id} 
-                className={ activeImageIndex == index ? 'active' : ''} //altera a classe 'active' se activeImageIndex == index
+                className={ activeImageIndex === index ? 'active' : ''} //altera a classe 'active' se activeImageIndex == index
                 type="button"
                 onClick={ ()=>{
                   setActiveImageIndex(index); //atualiza indice de imagem ativa no evento onClick
@@ -120,10 +120,11 @@ export default function Orphanage() {
                }
             </div>
 
-            <button type="button" className="contact-button">
+           {/* <button type="button" className="contact-button">
               <FaWhatsapp size={20} color="#FFF" />
               Entrar em contato
             </button>
+            */}
           </div>
         </div>
       </main>
