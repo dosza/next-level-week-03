@@ -17,6 +17,7 @@
 <h1 align="center">Happy - Next Level Week \# 3</h1>
 
 Um Projeto desenvolvido na Semana *[Next Level Week \#3](https://nextlevelweek.com)* da *[Rocketseat](https://rocketseat.com.br/)*
+
 Leve a felicidade para o mundos.<br/>Visite orfanatos e mude o dia de muitas crianças.
 
 Tecnologias usadas
