@@ -14,7 +14,7 @@
 <img src="https://raw.githubusercontent.com/DanielOliveiraSouza/next-level-week-03/main/screenshots/captura-01-web-tela-inicial.png"/>
 </p>
 
-<h1 align="center">Happy - Next Level Week \# 3</h1>
+<h1 align="center">Projeto Happy - Next Level Week #3</h1>
 
 Um Projeto desenvolvido na Semana *[Next Level Week \#3](https://nextlevelweek.com)* da *[Rocketseat](https://rocketseat.com.br/)*
 
@@ -68,6 +68,7 @@ API Rest
 ---
 Leia a Especificação da *[API Rest](https://github.com/DanielOliveiraSouza/next-level-week-03/tree/master/docs/api_rest.md)* para obter informações sobre  Casas de Acolhimento disponíveis. <br/>
 
+Getting Started!
 ---
 Inicializando o servidor
 ```console
