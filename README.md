@@ -1,16 +1,16 @@
 <p align=center>
-  <img src="https://raw.githubusercontent.com/DanielOliveiraSouzanlw3/aulas/web/src/images/logo.svg"
+  <img src="https://raw.githubusercontent.com/DanielOliveiraSouza/next-level-week-03/main/aulas/web/src/images/logo.svg"
   />
 </p>
 
 <p align=center>
-  <a href="https://github.com/DanielOliveiraSouza/next-level-week-03/archive/v0.1.1.zip"><img src="https://img.shields.io/badge/Release-v0.1.0-green"/> </a><img src="https://img.shields.io/badge/language-typescript-blue"/> <a href="https://github.com/DanielOliveiraSouza/next-level-week-01/LICENSE.md"><img src="https://img.shields.io/github/license/danieloliveirasouza/next-level-week-01"/></a>
+  <a href="https://github.com/DanielOliveiraSouza/next-level-week-03/archive/v0.1.0.zip"><img src="https://img.shields.io/badge/Release-v0.1.0-green"/> </a><img src="https://img.shields.io/badge/language-typescript-blue"/> <a href="https://github.com/DanielOliveiraSouza/next-level-week-03/LICENSE.md"><img src="https://img.shields.io/github/license/danieloliveirasouza/next-level-week-03"/></a>
 </p>
 
 
 Ecoleta - Next Level Week \# 3 
 ---
-Um Projeto desenvolvido na Semana *[Next Level Week \#1](https://nextlevelweek.com)* da *[Rocketseat](https://rocketseat.com.br/)*.<br/>Leve a felicidade para o mundos.<br/>Visite orfanatos e mude o dia de muitas crianças.
+Um Projeto desenvolvido na Semana *[Next Level Week \#3](https://nextlevelweek.com)* da *[Rocketseat](https://rocketseat.com.br/)*.<br/>Leve a felicidade para o mundos.<br/>Visite orfanatos e mude o dia de muitas crianças.
 
 Tecnologias usadas
 ---
@@ -22,12 +22,13 @@ Consulte  *[tutorial](https://react-native.rocketseat.dev/)* de instalação fei
 + Sqlite3
 + Expo
 + Insomnia
++ Beekeeper-Studio
 
 Módulos do Projeto 
 ---
-+ [Servidor Web](https://github.com/DanielOliveiraSouza/nlw/tree/master/aulas/backend)
-+ [Aplicativo Móvel](https://github.com/DanielOliveiraSouza/nlw/tree/master/aulas/mobile)
-+ [Aplicação Web](https://github.com/DanielOliveiraSouza/nlw/tree/master/aulas/web)
++ [Servidor Web](https://github.com/DanielOliveiraSouza/next-level-week-03/tree/main/aulas/backend)
++ [Aplicativo Móvel](https://github.com/DanielOliveiraSouza/next-level-week-03/tree/main/aulas/mobile)
++ [Aplicação Web](https://github.com/DanielOliveiraSouza/next-level-week-03/tree/main/aulas/web)
 
 Front-end:
 ---
@@ -51,7 +52,7 @@ Responsável pela implementação da **API Rest** e a conexão com banco de dado
 
 API Rest
 ---
-Leia a Especificação da *[API Rest:](https://github.com/DanielOliveiraSouza/next-level-week-03/tree/master/docs/api_rest.md)* para obter informações sobre Itens e Pontos disponíveis. <br/>
+Leia a Especificação da *[API Rest](https://github.com/DanielOliveiraSouza/next-level-week-03/tree/master/docs/api_rest.md)* para obter informações sobre Itens e Pontos disponíveis. <br/>
 
 ---
 Inicializando o servidor
@@ -81,4 +82,4 @@ user@pc:~$ expo start
 
 Release Notes
 ---
-Para informaçõs sobre novas funcionalidades  e correções de *bugs* leia as *[Notas de Lançamento](https://github.com/DanielOliveiraSouza/nlw/tree/master/docs/releases_notes.md)*<br/>
+Para informaçõs sobre novas funcionalidades  e correções de *bugs* leia as *[Notas de Lançamento](https://github.com/DanielOliveiraSouza/next-level-week-03/tree/main/docs/releases_notes.md)*<br/>

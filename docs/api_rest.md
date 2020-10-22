@@ -87,7 +87,7 @@ Parâmetro | tipo
 id | numeral
 
 ##### Exemplo:
-http://localhost:3333/orphanages/10
+http://localhost:3333/orphanages/26
 
 #### Resposta do servidor:
 
@@ -120,8 +120,8 @@ http://localhost:3333/orphanages/10
 Formato de envio: arquivo *multipart*
 +	Cadastar Casa de Acolhimento
 
-http://localhost:3333/orphanages
-Obs: open_on_weekends recebe uma *string* com valor false or true
+http://localhost:3333/orphanages<br/>
+Obs: *open_on_weekends* recebe uma *string* com valor false or true
 
 Parâmetros | Tipo| Valor
 -----------|-----------|-----------
