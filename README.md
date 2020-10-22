@@ -42,6 +42,7 @@ Segue os links do Layout do Happy:
 
 + [Layout do Web App](https://www.figma.com/file/mDEbnoojksG4w8sOxmudh3/Happy-Web?node-id=0%3A1)
 + [Layout do App Mobile](https://www.figma.com/file/X27FfVxAgy9f5IFa7ONlph/Happy-Mobile?node-id=0%3A1)
+
 **Obs:** Você precisa precisará ter uma conta no Figma!
 
 Front-end:
