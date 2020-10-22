@@ -70,7 +70,7 @@ Getting Started!
 ---
 Inicializando o servidor
 ```console
-user@pc:~$ cd server
+user@pc:~$ cd backend
 user@pc:~$ #Configuração de dependencias
 user@pc:~$ yarn
 user@pc:~$ #Inicialização do servidor
