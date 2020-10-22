@@ -36,6 +36,14 @@ Módulos do Projeto
 + [Aplicativo Móvel](https://github.com/DanielOliveiraSouza/next-level-week-03/tree/main/aulas/mobile)
 + [Aplicação Web](https://github.com/DanielOliveiraSouza/next-level-week-03/tree/main/aulas/web)
 
+Layout
+---
+Segue os links do Layout do Happy:
+
++ [Layout do Web App](https://www.figma.com/file/mDEbnoojksG4w8sOxmudh3/Happy-Web?node-id=0%3A1)
++ [Layout do App Mobile](https://www.figma.com/file/X27FfVxAgy9f5IFa7ONlph/Happy-Mobile?node-id=0%3A1)
+**Obs:** Você precisa precisará ter uma conta no Figma!
+
 Front-end:
 ---
 
@@ -46,18 +54,8 @@ O front-end envia requisições para o back-end através da **API Rest**.<br/>En
 + Consultar Casas de Acolhimento próximas à Guarulhos
 + Cadastrar novas casas de Acolhimento
 
-Layout
----
-Segue os links do Layout do Happy:
 
-+ [Layout do Web App](https://www.figma.com/file/mDEbnoojksG4w8sOxmudh3/Happy-Web?node-id=0%3A1)
-+ [Layout do App Mobile](https://www.figma.com/file/X27FfVxAgy9f5IFa7ONlph/Happy-Mobile?node-id=0%3A1)
-**Obs:** Você precisa precisará ter uma conta no Figma
 
-Aplicação Móvel:**
-
-![android](https://raw.githubusercontent.com/DanielOliveiraSouza/nlw/master/screenshots/captura_02_app.png)
--->
 Back-end: Servidor Web
 ---
 Responsável pela implementação da **API Rest** e a conexão com banco de dados Sqlite3.<br/>Endereço do servidor: http://localhost:3333
@@ -92,12 +90,12 @@ user@pc:~$ yarn
 user@pc:~$ #Inicialização do App
 user@pc:~$ expo start
 ```
+Desafios
+---
+Seguem os desafios propostos  pela **Rocketseat** para levar o Happy para o próximo nível
+[Desafio Happy 2.0](https://www.notion.so/Vers-o-2-0-do-Happy-c754db7a4d41469e8c2d00fcf75392c4)
 
 Release Notes
 ---
 Para informaçõs sobre novas funcionalidades  e correções de *bugs* leia as *[Notas de Lançamento](https://github.com/DanielOliveiraSouza/next-level-week-03/tree/main/docs/releases_notes.md)*<br/>
 
-Desafios
----
-Seguem os desafios propostos  pela **Rocketseat** para levar o Happy para o próximo nível
-[Desafio Happy 2.0](https://www.notion.so/Vers-o-2-0-do-Happy-c754db7a4d41469e8c2d00fcf75392c4)
