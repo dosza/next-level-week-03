@@ -10,6 +10,11 @@
 
 Happy - Next Level Week \# 3 
 ---
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/DanielOliveiraSouza/next-level-week-03/main/screenshots/captura-01-web-tela-inicial.png"/>
+</p>
+
 Um Projeto desenvolvido na Semana *[Next Level Week \#3](https://nextlevelweek.com)* da *[Rocketseat](https://rocketseat.com.br/)*
 Leve a felicidade para o mundos.<br/>Visite orfanatos e mude o dia de muitas crianças.
 
@@ -49,11 +54,7 @@ Segue os links do Layout do Happy:
 + [Layout do App Mobile](https://www.figma.com/file/X27FfVxAgy9f5IFa7ONlph/Happy-Mobile?node-id=0%3A1)
 **Obs:** Você precisa precisará ter uma conta no Figma
 
-Desafios
----
-Seguem os desafios propostos  pela **Rocketseat** para levar o Happy para o próximo nível
-[Desafio Happy 2.0](https://www.notion.so/Vers-o-2-0-do-Happy-c754db7a4d41469e8c2d00fcf75392c4)
-<!--**Aplicação Móvel:**
+Aplicação Móvel:**
 
 ![android](https://raw.githubusercontent.com/DanielOliveiraSouza/nlw/master/screenshots/captura_02_app.png)
 -->
@@ -96,3 +97,7 @@ Release Notes
 ---
 Para informaçõs sobre novas funcionalidades  e correções de *bugs* leia as *[Notas de Lançamento](https://github.com/DanielOliveiraSouza/next-level-week-03/tree/main/docs/releases_notes.md)*<br/>
 
+Desafios
+---
+Seguem os desafios propostos  pela **Rocketseat** para levar o Happy para o próximo nível
+[Desafio Happy 2.0](https://www.notion.so/Vers-o-2-0-do-Happy-c754db7a4d41469e8c2d00fcf75392c4)
