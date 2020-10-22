@@ -18,7 +18,7 @@
 
 Um Projeto desenvolvido na Semana *[Next Level Week \#3](https://nextlevelweek.com)* da *[Rocketseat](https://rocketseat.com.br/)*
 
-Leve a felicidade para o mundos.<br/>Visite orfanatos e mude o dia de muitas crianças.
+Leve a felicidade para o mundo.<br/>Visite orfanatos e mude o dia de muitas crianças.
 
 Tecnologias usadas
 ---
@@ -30,7 +30,6 @@ Consulte  *[tutorial](https://react-native.rocketseat.dev/)* de instalação fei
 + Sqlite3
 + Expo
 + Insomnia
-+ Beekeeper-Studio
 
 Módulos do Projeto 
 ---
@@ -62,7 +61,6 @@ O front-end envia requisições para o back-end através da **API Rest**.<br/>En
 Back-end: Servidor Web
 ---
 Responsável pela implementação da **API Rest** e a conexão com banco de dados Sqlite3.<br/>Endereço do servidor: http://localhost:3333
-### Entidades do Sistema:
 
 API Rest
 ---
@@ -72,7 +70,7 @@ Getting Started!
 ---
 Inicializando o servidor
 ```console
-	user@pc:~$ cd server
+user@pc:~$ cd server
 user@pc:~$ #Configuração de dependencias
 user@pc:~$ yarn
 user@pc:~$ #Inicialização do servidor
