@@ -9,7 +9,7 @@ ARG="$1"
 for i in ${!dirs[*]}
 do
 	cd  ${dirs[i]}
-	if [ $ARG != "" ]; then 
+	if [ "$ARG" != "" ]; then 
 		cat yarn.lock | grep  $ARG
 		if [ $? = 0 ]; then
 			yarn upgrade $ARG
